@@ -57,8 +57,8 @@ public class Solution {
 		arr[1] = 'd';
 		System.out.println(arr);
 		String str = "abc";
-		char[] ch = str.toCharArray();
-		System.out.println(ch);
+		char[] ch1 = str.toCharArray();
+		System.out.println(ch1);
 		
 		
 		List<Integer> al = new ArrayList<>();
@@ -79,6 +79,8 @@ public class Solution {
 //		Deque<> inr = new ArrayDeque<>();
 		Deque<Character> d1 = new ArrayDeque<>();
 //		String str = "abacbdebaghccciajbklb";
+		
+		Set<Integer> s5= new HashSet<>();
 //		int[] arr = new int[26];
 //		System.out.println(arr);
 //		for(int i=0; i< str.length(); i++) {

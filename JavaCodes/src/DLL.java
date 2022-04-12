@@ -104,7 +104,7 @@ public class DLL {
 	/* Function to reverse a Doubly Linked List using Stacks
      */
 	public void reverseS() {
-		Stack stack = new Stack();
+		Stack<Integer> stack = new Stack<>();
 		Node temp = head;
 		while(temp != null) {
 			stack.push(temp.data);
